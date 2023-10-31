@@ -27,6 +27,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -70,7 +71,7 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-light my-6 mt-0">
+    <!--<div class="container-fluid bg-light my-6 mt-0">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 py-6 pb-0 pt-lg-0">
@@ -93,8 +94,81 @@
             </div>
         </div>
     </div>
+-->
+    
+  <div class="slider__navi">
+    <a href="#" class="slide-nav active" data-slide="1">pikachu</a>
+    <a href="#" class="slide-nav" data-slide="2">piplup</a>
+    <a href="#" class="slide-nav" data-slide="3">blaziken</a>
+    <a href="#" class="slide-nav" data-slide="4">dialga</a>
+    <a href="#" class="slide-nav" data-slide="5">zekrom</a>
+  </div><div class="slider__warpper">
+    <div class="flex__container flex--pikachu flex--active" data-slide="1">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+          <p class="text--sub">Pokemon Gen I</p>
+          <h1 class="text--big">Pikachu</h1>
+          <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p>
+        </div>
+        <p class="text__background">Pikachu</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="img/NexusHome.png" />
+    </div>
+    <div class="flex__container flex--piplup animate--start" data-slide="2">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+          <p class="text--sub">Pokemon Gen IV</p>
+          <h1 class="text--big">Piplup</h1>
+          <p class="text--normal">Piplup is the Water-type Starter Pokémon of the Sinnoh region. It was introduced in Generation IV. Piplup has a strong sense of self-esteem. It seldom accepts food that people give because of its pride.</p>
+        </div>
+        <p class="text__background">Piplup</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="https://s4.postimg.org/sa9dl4825/pilup.png" />
+    </div>
+    <div class="flex__container flex--blaziken animate--start" data-slide="3">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+          <p class="text--sub">Pokemon Gen III</p>
+          <h1 class="text--big">Blaziken</h1>
+          <p class="text--normal">Blaziken is the Fire/Fighting-type Starter Pokémon of the Hoenn region, introduced in Generation III. Blaziken is a large, bipedal, humanoid bird-like Pokémon that resembles a rooster.</p>
+        </div>
+        <p class="text__background">Blaziken</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="https://s4.postimg.org/6795hnlql/blaziken.png" />
+    </div>
+    <div class="flex__container flex--dialga animate--start" data-slide="4">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+          <p class="text--sub">Pokemon Gen IV</p>
+          <h1 class="text--big">Dialga</h1>
+          <p class="text--normal">Dialga is a Steel/Dragon-type Legendary Pokémon. Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as its chest plate, which has a diamond in the center. It also has various, light blue lines all over
+            its body.</p>
+        </div>
+        <p class="text__background">Dialga</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="https://s4.postimg.org/43yq9zlxp/dialga.png" />
+    </div>
+    <div class="flex__container flex--zekrom animate--start" data-slide="5">
+      <div class="flex__item flex__item--left">
+        <div class="flex__content">
+          <p class="text--sub">Pokemon Gen V</p>
+          <h1 class="text--big">Zekrom</h1>
+          <p class="text--normal">Zekrom is a Dragon/Electric-type Legendary Pokémon. It is part of the Tao Trio, along with Reshiram and Kyurem. Zekrom is a large, black draconian Pokémon that seems to share its theme with its counterpart, Reshiram. It has piercing red eyes and
+            dark gray to black skin that seems to be armor-like.</p>
+        </div>
+        <p class="text__background">Zekrom</p>
+      </div>
+      <div class="flex__item flex__item--right"></div>
+      <img class="pokemon__img" src="https://s4.postimg.org/malmhgn9p/zekrom.png" />
+    </div>
+  </div>
+  
     <!-- Header End -->
-
+    
 
     <!-- Video Modal Start -->
     <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -451,7 +525,7 @@
             <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
             <div class="row justify-content-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-carousel">
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
                                 <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
@@ -570,6 +644,58 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        $('.slide-nav').on('click', function(e) {
+    e.preventDefault();
+    // get current slide
+    var current = $('.flex--active').data('slide'),
+        // get button data-slide
+        next = $(this).data('slide');
+
+    $('.slide-nav').removeClass('active');
+    $(this).addClass('active');
+
+    if (current === next) {
+        return false;
+    } else {
+        $('.slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
+        $('.flex--active').addClass('animate--end');
+        setTimeout(function() {
+        $('.flex--preStart').removeClass('animate--start flex--preStart').addClass('flex--active');
+        $('.animate--end').addClass('animate--start').removeClass('animate--end flex--active');
+        }, 800);
+    }
+    });
+    </script>
+    <script>
+        // Función para cambiar las diapositivas
+function cambiarDiapositiva() {
+  var current = $('.flex--active').data('slide');
+  var totalSlides = $('.slide-nav').length;
+  var next = (current % totalSlides) + 1;
+
+  $('.slide-nav').removeClass('active');
+  $('.slide-nav[data-slide=' + next + ']').addClass('active');
+
+  if (current === next) {
+    return false;
+  } else {
+    $('.slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
+    $('.flex--active').addClass('animate--end');
+    setTimeout(function() {
+      $('.flex--preStart').removeClass('animate--start flex--preStart').addClass('flex--active');
+      $('.animate--end').addClass('animate--start').removeClass('animate--end flex--active');
+    }, 800);
+  }
+}
+
+// Intervalo de tiempo en milisegundos (por ejemplo, 10000 para 10 segundos)
+var intervaloTiempo = 10000;
+
+// Función para cambiar las diapositivas automáticamente
+setInterval(cambiarDiapositiva, intervaloTiempo);
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
