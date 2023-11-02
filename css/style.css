@@ -666,6 +666,7 @@
     .Hero__img {
         position: absolute;
         bottom: -28%;
+        right: 5%;
         left: 5%;
         width: 45vh;
     }
