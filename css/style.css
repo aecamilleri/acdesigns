@@ -1,9 +1,26 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6244C5;
+    --primary: #0d6efd;
     --secondary: #FFC448;
     --light: #FAFAFB;
     --dark: #12141D;
+    --bs-gray: #6c757d;
+}
+
+.text-primary{
+    color: #0d6efd !important;
+}
+.btn-primary{
+    background-color: #0d6efd !important;
+}
+.border-primary{
+    border-color: #0d6efd !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #0d6efd !important;
+}
+#data a{
+    color: #0d6efd !important;
 }
 
 .back-to-top {
@@ -209,7 +226,7 @@
 
 /*** About ***/
 #about {
-    margin-top: 75vh;
+    margin-top: 85vh;
 }
 #about .years .display-1 {
     font-size: 6rem;
@@ -496,14 +513,15 @@
 }
 
 .text--big {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     margin-left: -8px;
     line-height: 1em;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .text--normal {
-	font-size: 13px;
+	font-size: 16px;
 	color: rgba(255, 255, 255, 0.8);
 	line-height: 22px;
 	margin-top: 25px;
@@ -641,8 +659,70 @@
 
 /*********************************************/
 
+/*********************************************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .Hero__img {
+        position: absolute;
+        bottom: -28%;
+        right: 5%;
+        width: 50vh;
+    }
+    .flex__item--left{
+        width: 100%;
+    }
+    .flex__item--right {
+        width: 100%;
+    }
+    .flex__content{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .text--big {
+        font-size: 2em;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .text--sub {
+        margin-bottom: 0px; 
+    }
+    .flex__item {
+        height: 50vh;
+        padding: 10%
+    }
+    #about {
+        margin-top: 105vh;
+    }
+    #about .years .display-1 {
+        font-size: 5rem;
+    }
+    .fs-3 {
+        font-size: calc(1.1rem + .6vw) !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+/*********************************************/
+
 /* container */
 .two-columns-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.TypeServices{
+    min-height: 120px;
+    display: block;
 }
