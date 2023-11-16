@@ -580,7 +580,7 @@
 }
 
 .flex--01 .flex__item--right {
-	background: #a7bcbb;
+	background: #424242;
 }
 
 .flex--02 .flex__item--left {
@@ -588,7 +588,7 @@
 }
 
 .flex--02 .flex__item--right {
-	background: #d3eaef;
+	background: #3e9fe6;
 }
 
 .flex--03 .flex__item--left {
@@ -596,7 +596,7 @@
 }
 
 .flex--03 .flex__item--right {
-	background: #a7bcbb;
+	background: #424242;
 }
 
 .flex--04 .flex__item--left {
@@ -604,7 +604,7 @@
 }
 
 .flex--04 .flex__item--right {
-	background: #d3eaef;
+	background: #3e9fe6;
 }
 
 .flex__content {
