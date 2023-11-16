@@ -712,7 +712,9 @@
         display: flex !important;
         flex-direction: column;
     }
-    #years10 .px-5{
+    #years10.px-5{
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
         padding-top: 3rem!important;
     }
 }
