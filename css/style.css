@@ -706,6 +706,10 @@
     .fs-3 {
         font-size: calc(1.1rem + .6vw) !important;
     }
+    #mobile10 {
+        display: flex !important;
+        flex-direction: column;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
