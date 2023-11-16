@@ -705,6 +705,8 @@
     }
     .fs-3 {
         font-size: calc(1.1rem + .6vw) !important;
+        text-align: center;
+        margin-top: 5%;
     }
     #mobile10 {
         display: flex !important;
