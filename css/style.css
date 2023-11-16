@@ -664,7 +664,6 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
     .text__background {
-        position: absolute;
         left: -5%;
         bottom: -40px;
         font-size: 64px;
