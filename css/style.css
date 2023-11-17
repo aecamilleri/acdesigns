@@ -656,7 +656,16 @@
 	transform: translate3d(200px,0,0);
 	opacity: 0;
 }
+/* container */
+.two-columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.TypeServices{
+    min-height: 72px;
+    display: block;
+}
 /*********************************************/
 
 /*********************************************/
@@ -674,6 +683,9 @@
         right: 5%;
         left: 5%;
         width: 40vh;
+    }
+    nav img {
+        height: 10vh;
     }
     .flex__item--left{
         width: 100%;
@@ -718,26 +730,73 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+    .flex__item {
+        padding-left: 0%;
+    }
+    .text__background {
+        left: 7%;
+        font-size: 110px;
+        padding-left: 0%;
+    }
+    .Hero__img {
+        bottom: 20%;
+        right: 7%;
+        width: 40vh;
+    }
+    nav img {
+        height: 10vh;
+    }
+ }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    .flex__item {
+        padding-left: 0%;
+    }
+    .text__background {
+        left: 7%;
+        font-size: 110px;
+        padding-left: 0%;
+    }
+    .Hero__img {
+        bottom: 10%;
+        right: 5%;
+        width: 55vh;
+    }
+ }
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/* X-Large devices (large desktops, 1024px and up) */
+@media (min-width: 1024px) { 
+    .flex__item {
+        padding-left: 0%;
+    }
+    .text__background {
+        left: 7%;
+        font-size: 110px;
+        padding-left: 0%;
+    }
+    .Hero__img {
+        bottom: 10%;
+        right: 5%;
+        width: 55vh;
+    }
+ }
 
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { ... }
+/* XX-Large devices (larger desktops, 1440px and up) */
+@media (min-width: 1440px) { 
+    .flex__item {
+        padding-left: 0%;
+    }
+    .text__background {
+        left: 7%;
+        font-size: 110px;
+        padding-left: 0%;
+    }
+    .Hero__img {
+        bottom: 10%;
+    }
+ }
 
 /*********************************************/
 
-/* container */
-.two-columns-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.TypeServices{
-    min-height: 72px;
-    display: block;
-}
