@@ -95,8 +95,8 @@
 
 
 /*** Navbar ***/
-.navbar.fixed-top {
-    /* display: none; */
+/* .navbar.fixed-top {
+    display: none;
     transition: .5s;
 }
 
@@ -117,7 +117,7 @@
     .navbar .navbar-nav .nav-link  {
         padding: 10px 0;
     }
-}
+} */
 
 
 /*** Header ***/
