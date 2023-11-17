@@ -96,7 +96,7 @@
 
 /*** Navbar ***/
 .navbar.fixed-top {
-    display: none;
+    /* display: none; */
     transition: .5s;
 }
 
